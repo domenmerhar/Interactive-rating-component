@@ -1,0 +1,61 @@
+.main-container {
+  .main-form {
+    padding: 3rem;
+    background-image: linear-gradient(to bottom, $dark-blue, $very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+
+    &__img {
+      width: 16px;
+      height: 16px;
+      background-color: $dark-blue;
+      padding: 1.6em;
+      border-radius: 50%;
+      box-shadow: 0 10px 10px rgba(black, 0.1);
+      margin-bottom: 1rem;
+    }
+
+    &__heading-primary {
+    }
+
+    &__feedback-message {
+      width: 37ch;
+      margin-top: -1rem;
+    }
+
+    &__ratings-list {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+    }
+
+    &__rating {
+      display: inline;
+      height: 56px;
+      width: 56px;
+      line-height: 60px;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 50%;
+      background-color: $dark-blue;
+    }
+
+    &__button {
+      color: $white;
+      background-color: $orange;
+      border: 0;
+      border-radius: 3rem;
+      height: 5rem;
+      margin-top: 3rem;
+      transition: all 200ms;
+
+      &:hover {
+        background-color: $white;
+        color: $orange;
+      }
+    }
+  }
+}

@@ -1,2 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700&display=swap");
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: "Overpass", sans-serif; }
+
+body {
+  color: white; }
+
+.main-container .main-form__heading-primary {
+  font-size: 2.6rem; }
+
+.main-container .main-form__feedback-message {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #959eac; }
+
+.main-container .main-form__rating {
+  font-size: 2.4rem;
+  color: #959eac; }
+
+.main-container .main-form__button {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Overpass", "sans-serif";
+  letter-spacing: 2px; }
+
+.main-container .main-form {
+  padding: 3rem;
+  background-image: linear-gradient(to bottom, #252d37, #121417);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 15px; }
+  .main-container .main-form__img {
+    width: 16px;
+    height: 16px;
+    background-color: #252d37;
+    padding: 1.6em;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem; }
+  .main-container .main-form__feedback-message {
+    width: 37ch;
+    margin-top: -1rem; }
+  .main-container .main-form__ratings-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+  .main-container .main-form__rating {
+    display: inline;
+    height: 56px;
+    width: 56px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #252d37; }
+  .main-container .main-form__button {
+    color: white;
+    background-color: #fb7413;
+    border: 0;
+    border-radius: 3rem;
+    height: 5rem;
+    margin-top: 3rem;
+    transition: all 200ms; }
+    .main-container .main-form__button:hover {
+      background-color: white;
+      color: #fb7413; }
+
+body {
+  background-color: #121417; }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }

@@ -1,5 +1,16 @@
 @import "variables";
+@import "typography";
 
-html {
-  font-size: 62.5%;
+@import "main-form";
+
+body {
+  background-color: $very-dark-blue;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
