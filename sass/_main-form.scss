@@ -32,8 +32,8 @@
       padding: 0;
     }
 
-    &__rating {
-      display: inline;
+    &__rating > a {
+      display: inline-block;
       height: 56px;
       width: 56px;
       line-height: 60px;
