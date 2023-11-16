@@ -1,16 +1,22 @@
 @import "variables";
 @import "typography";
+@import "utils";
 
 @import "main-form";
 
-body {
-  background-color: $very-dark-blue;
+* {
+  box-sizing: border-box;
 }
 
-.main-container {
+body {
+  background-color: $very-dark-blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.main-container {
+  width: 440px;
 }
