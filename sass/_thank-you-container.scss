@@ -15,5 +15,9 @@
   &__thank-you-message {
     width: 35ch;
     margin-top: -1rem;
+
+    @include phone {
+      width: 100%;
+    }
   }
 }
