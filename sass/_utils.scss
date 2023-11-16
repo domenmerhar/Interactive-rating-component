@@ -1,3 +1,10 @@
 .heading-primary {
   font-size: 3.2rem;
 }
+
+.selected:link,
+.selected:visited {
+  background-color: $light-grey !important;
+  color: $white !important;
+  border-radius: 50%;
+}

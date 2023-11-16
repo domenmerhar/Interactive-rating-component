@@ -29,6 +29,10 @@
       padding: 0;
     }
 
+    &__rating {
+      transition: all 200ms;
+    }
+
     &__rating > a {
       display: inline-block;
       height: 56px;
@@ -38,6 +42,7 @@
       vertical-align: middle;
       border-radius: 50%;
       background-color: $dark-blue;
+      transition: all 200ms;
     }
 
     &__button {

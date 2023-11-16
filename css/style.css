@@ -39,6 +39,12 @@ body {
 .heading-primary {
   font-size: 3.2rem; }
 
+.selected:link,
+.selected:visited {
+  background-color: #959eac !important;
+  color: white !important;
+  border-radius: 50%; }
+
 .main-container .main-form {
   padding: 3rem;
   display: flex;
@@ -62,6 +68,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0; }
+  .main-container .main-form__rating {
+    transition: all 200ms; }
   .main-container .main-form__rating > a {
     display: inline-block;
     height: 56px;
@@ -70,7 +78,8 @@ body {
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    background-color: #252d37; }
+    background-color: #252d37;
+    transition: all 200ms; }
   .main-container .main-form__button {
     color: white;
     background-color: #fb7413;
@@ -111,5 +120,6 @@ body {
 
 .main-container {
   width: 440px;
+  height: 440px;
   background-image: linear-gradient(to bottom, #252d37, #121417);
   border-radius: 15px; }
