@@ -18,7 +18,7 @@ Choose one of the following options:
 
 Simply visit the following link:
 
-[Interactive Rating Component](https://domenmerhar.github.io/Interactive-card-details-form/)
+[Interactive Rating Component](https://domenmerhar.github.io/Interactive-rating-component/)
 
 ### Option 2: Clone the Repository and Open Locally
 
