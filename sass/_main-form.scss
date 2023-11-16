@@ -1,11 +1,9 @@
 .main-container {
   .main-form {
     padding: 3rem;
-    background-image: linear-gradient(to bottom, $dark-blue, $very-dark-blue);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 15px;
     width: 100%;
 
     &__img {

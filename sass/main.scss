@@ -3,6 +3,7 @@
 @import "utils";
 
 @import "main-form";
+@import "thank-you-container";
 
 * {
   box-sizing: border-box;
@@ -19,4 +20,6 @@ body {
 
 .main-container {
   width: 440px;
+  background-image: linear-gradient(to bottom, $dark-blue, $very-dark-blue);
+  border-radius: 15px;
 }

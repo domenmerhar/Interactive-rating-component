@@ -43,3 +43,16 @@ body {
     }
   }
 }
+
+.thank-you-container {
+  &__thank-you-message {
+    text-align: center;
+    font-size: 1.6rem;
+    color: $light-grey;
+  }
+
+  &__rating-report {
+    color: $orange;
+    font-size: 1.6rem;
+  }
+}

@@ -27,16 +27,23 @@ body {
   font-family: "Overpass", "sans-serif";
   letter-spacing: 2px; }
 
+.thank-you-container__thank-you-message {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #959eac; }
+
+.thank-you-container__rating-report {
+  color: #fb7413;
+  font-size: 1.6rem; }
+
 .heading-primary {
-  font-size: 2.6rem; }
+  font-size: 3.2rem; }
 
 .main-container .main-form {
   padding: 3rem;
-  background-image: linear-gradient(to bottom, #252d37, #121417);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border-radius: 15px;
   width: 100%; }
   .main-container .main-form__img {
     box-sizing: content-box;
@@ -76,6 +83,21 @@ body {
       background-color: white;
       color: #fb7413; }
 
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3.2rem; }
+  .thank-you-container__rating-report {
+    padding: 0.75rem 1.5rem;
+    background-color: #252d37;
+    border-radius: 15px;
+    margin-top: 4rem; }
+  .thank-you-container__thank-you-message {
+    width: 35ch;
+    margin-top: -1rem; }
+
 * {
   box-sizing: border-box; }
 
@@ -88,4 +110,6 @@ body {
   height: 100vh; }
 
 .main-container {
-  width: 440px; }
+  width: 440px;
+  background-image: linear-gradient(to bottom, #252d37, #121417);
+  border-radius: 15px; }
